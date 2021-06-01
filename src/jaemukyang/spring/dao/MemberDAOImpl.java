@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import jaemukyang.spring.vo.Member;
 
-@Repository("mbdao")
+@Repository("mdao")
 public class MemberDAOImpl implements MemberDAO{
 
 	@Autowired
