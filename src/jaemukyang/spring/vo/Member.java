@@ -10,6 +10,10 @@ public class Member {
     protected String joindate;
     
     
+	public Member() {
+	}
+
+
 	public Member(String userid, String passwd, String name, String email) {
 		this.userid = userid;
 		this.passwd = passwd;
